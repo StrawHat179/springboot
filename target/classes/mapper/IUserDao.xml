@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.strawhat.boot.dao.IUserDao">
+
+    <select id="queryUser" resultType="user">
+       select * from tb_user
+    </select>
+
+    <select id="queryUserByAccount" resultType="user">
+        select * from tb_user where account=#{account}
+    </select>
+
+    <select id="queryUserById" resultType="user">
+        select * from tb_user where u_id=#{id}
+    </select>
+
+    <!--useGeneratedKeys="true" keyProperty="id" id自增 -->
+    <insert id="insertUser" parameterType="user" useGeneratedKeys="true" keyProperty="uId">
+        insert into tb_user(account,name,password,gender,birthday,dept) value(#{account},#{name},#{password},#{gender},#{birthday},#{dept})
+    </insert>
+
+    <!--<update id="updateUser" parameterType="User">
+        update user set account=#{account},name=#{name},pwd=${pwd},address=#{address},phone=#{phone} where id=#{id}
+    </update>-->
+
+    <delete id="deleteUser">
+        delete from tb_user where u_id = #{id}
+    </delete>
+    <update id="editUser" parameterType="user" useGeneratedKeys="true" keyProperty="cID">
+        update tb_user set  name=#{name} ,dept=#{dept},gender=#{gender},birthday=#{birthday},
+        password=#{password} where account = #{account}
+    </update>
+
+    <select id="findCourseByAccount" resultMap="UserMap1" parameterType="map">
+        select * from course c inner join user_c uc on uc.cid=c.c_id inner join tb_user u on uc.uid=u.u_id
+    <where>
+        <if test="account!=null and account!=''">
+           or u.account=#{account}
+        </if>
+        <if test="name!=null and name =!''">
+           or u.name=#{name}
+        </if>
+    </where>
+    </select>
+    <resultMap id="UserMap1" type="user">
+        <id property="uId" column="u_id"/>
+        <result property="password" column="password"/>
+        <result property="name" column="name"/>
+        <result property="dept" column="dept"/>
+        <result column="gender" property="gender"/>
+        <result property="birthday" column="birthday"/>
+        <result property="account" column="account"/>
+        <collection property="course" ofType="course">
+            <id property="cId" column="c_id"/>
+            <result property="classDate" column="classDate"/>
+            <result property="startDate" column="startDate"/>
+            <result property="endDate" column="endDate"/>
+            <result property="classPlace" column="classPlace"/>
+            <result property="courseNo" column="courseNo"/>
+            <result property="credits" column="credits"/>
+            <result property="optional" column="optional"/>
+            <result property="selected" column="selected"/>
+            <result property="remark" column="remark"/>
+            <result property="courseName" column="courseName"/>
+        </collection>
+    </resultMap>
+    <select id="searchUser" resultType="user">
+           select * from tb_user
+        <where>
+            <if test="account !=null and account !=''" >
+                and account like concat('%',#{account},'%')
+            </if>
+            <if test="name !=null and name !=''">
+                and name like concat('%',#{name},'%')
+            </if>
+        </where>
+    </select>
+</mapper>

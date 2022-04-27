@@ -1,0 +1,76 @@
+2022-04-26 10:22:28.888  INFO 18792 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Starting SpringbootApplication using Java 1.8.0_311 on CaoMao with PID 18792 (F:\MyProject\SpringBootTask\target\test-classes started by CaoMao in F:\MyProject\SpringBootTask)
+2022-04-26 10:22:28.895  INFO 18792 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 10:22:28.939  INFO 18792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 10:22:28.939  INFO 18792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 10:22:30.311  INFO 18792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2022-04-26 10:22:30.321  INFO 18792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 10:22:30.322  INFO 18792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-26 10:22:30.417  INFO 18792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 10:22:30.418  INFO 18792 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1478 ms
+2022-04-26 10:22:32.136  INFO 18792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-26 10:22:32.400  INFO 18792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 10:22:32.435  INFO 18792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2022-04-26 10:22:32.444  INFO 18792 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Started SpringbootApplication in 4.254 seconds (JVM running for 7.993)
+2022-04-26 10:22:41.462  INFO 18792 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 10:22:41.463  INFO 18792 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-26 10:22:41.464  INFO 18792 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-26 10:22:46.950  INFO 18792 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 10:22:48.051  INFO 18792 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 10:26:38.960  INFO 18792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 10:26:38.973  INFO 18792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 10:26:46.489  INFO 15368 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Starting SpringbootApplication using Java 1.8.0_311 on CaoMao with PID 15368 (F:\MyProject\SpringBootTask\target\test-classes started by CaoMao in F:\MyProject\SpringBootTask)
+2022-04-26 10:26:46.490  INFO 15368 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 10:26:46.552  INFO 15368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 10:26:46.553  INFO 15368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 10:26:47.801  INFO 15368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2022-04-26 10:26:47.811  INFO 15368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 10:26:47.811  INFO 15368 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-26 10:26:47.916  INFO 15368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 10:26:47.916  INFO 15368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1363 ms
+2022-04-26 10:26:49.623  INFO 15368 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-26 10:26:49.859  INFO 15368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 10:26:49.888  INFO 15368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2022-04-26 10:26:49.898  INFO 15368 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Started SpringbootApplication in 3.86 seconds (JVM running for 5.498)
+2022-04-26 10:26:51.484  INFO 15368 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 10:26:51.484  INFO 15368 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-26 10:26:51.485  INFO 15368 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-26 10:26:51.533  INFO 15368 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 10:26:52.533  INFO 15368 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 10:27:41.292  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 10:27:41.304  INFO 15368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 10:27:44.739  INFO 14172 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Starting SpringbootApplication using Java 1.8.0_311 on CaoMao with PID 14172 (F:\MyProject\SpringBootTask\target\test-classes started by CaoMao in F:\MyProject\SpringBootTask)
+2022-04-26 10:27:44.743  INFO 14172 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 10:27:44.790  INFO 14172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 10:27:44.790  INFO 14172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 10:27:45.880  INFO 14172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2022-04-26 10:27:45.888  INFO 14172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 10:27:45.888  INFO 14172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-26 10:27:45.964  INFO 14172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 10:27:45.964  INFO 14172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1173 ms
+2022-04-26 10:27:47.827  INFO 14172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-26 10:27:48.050  INFO 14172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 10:27:48.081  INFO 14172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2022-04-26 10:27:48.093  INFO 14172 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Started SpringbootApplication in 3.765 seconds (JVM running for 5.046)
+2022-04-26 10:33:16.307  INFO 14172 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 10:33:16.308  INFO 14172 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-26 10:33:16.309  INFO 14172 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-26 10:38:58.247  INFO 17352 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Starting SpringbootApplication using Java 1.8.0_311 on CaoMao with PID 17352 (F:\MyProject\SpringBootTask\target\test-classes started by CaoMao in F:\MyProject\SpringBootTask)
+2022-04-26 10:38:58.257  INFO 17352 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 10:38:58.448  INFO 17352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 10:38:58.450  INFO 17352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 10:39:01.755  INFO 17352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8060 (http)
+2022-04-26 10:39:01.764  INFO 17352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 10:39:01.764  INFO 17352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-26 10:39:01.861  INFO 17352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 10:39:01.861  INFO 17352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3411 ms
+2022-04-26 10:39:03.575  INFO 17352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-26 10:39:03.809  INFO 17352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 10:39:03.841  INFO 17352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8060 (http) with context path ''
+2022-04-26 10:39:03.850  INFO 17352 --- [restartedMain] com.strawhat.boot.SpringbootApplication  : Started SpringbootApplication in 6.968 seconds (JVM running for 9.583)
+2022-04-26 10:39:10.015  INFO 17352 --- [http-nio-8060-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-26 10:39:10.016  INFO 17352 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-26 10:39:10.018  INFO 17352 --- [http-nio-8060-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-26 10:39:10.069  INFO 17352 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 10:39:11.030  INFO 17352 --- [http-nio-8060-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 10:41:44.672  INFO 17352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 10:41:44.687  INFO 17352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

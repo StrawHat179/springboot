@@ -1,0 +1,33 @@
+#关闭缓存
+spring:
+  thymeleaf:
+    cache: false
+    #修改模板文件后缀
+  freemarker:
+    suffix: .ftl
+    cache: false
+    #配置数据源
+  datasource:
+    username: root
+    password: wxh1988
+    url: jdbc:mysql://localhost:3306/bootdb?useUnitcode=true&characterEncoding=utf-8
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+#日志配置
+logging:
+#  level:
+#    root: trace
+  file:
+    name: sprinbootLog.log
+
+
+#mybatis配置
+mybatis-plus:
+
+  # POJO别名包
+  type-aliases-package: com.strawhat.boot.pojo
+  # Mapper映射文件加载路径
+  mapper-locations: classpath:mapper/*.xml
+  #直接将结果输出在控制台
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
